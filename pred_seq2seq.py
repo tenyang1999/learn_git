@@ -14,10 +14,7 @@ sys.path.append('C:/Users/Administrator/static') #需更改模組路徑
 import joblib
 import tensorflow as tf
 
-from datetime import datetime,timedelta
-import sub.evaluate as ev
-import os
-import time
+
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 
